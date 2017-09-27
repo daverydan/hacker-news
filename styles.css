@@ -1,0 +1,184 @@
+body, h1, h1, h3, ol, ul, p {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, serif;
+	font-size: 100%;
+	padding: 8px 0;
+}
+
+header {
+	background: #FF6600;
+	padding: 2px 2px 1px;
+}
+
+header a {
+	color: #000;
+	float: left;
+	font-size: 13.3333px;
+	text-decoration: none;
+}
+
+header nav {
+	display: inline-block;
+	margin-left: 8px;
+}
+
+header nav ul {
+	padding-top: 2px;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	border-right: 1px solid #000;
+	padding: 0 8px 0 2px;
+}
+
+header nav ul li:last-child a {
+	border: none;
+}
+
+ul {
+	list-style: none;
+}
+
+main {
+	padding: 4px 0 10px;
+}
+
+main, main a {
+	color: #828282;
+}
+
+main a {
+	text-decoration: none;
+}
+
+main a:hover {
+	text-decoration: underline;
+}
+
+main ol {
+	font-size: 13.3333px;
+	padding: 0 0 0 26px;
+}
+
+article {
+	font-size: 9px;
+	margin-left: -2px;
+	width: 100%;
+}
+
+article ul li {
+	display: inline-block;
+}
+
+article ul li:first-child {
+	font-size: 20px;
+}
+
+article ul li:first-child a {
+	text-decoration: none;
+}
+
+article h3 {
+	font-size: 13.3333px;
+	font-weight: normal;
+	margin: 0;
+}
+
+article h3 a {
+	color: #000;
+}
+
+article h3 a:hover {
+	text-decoration: none;
+}
+
+article p {
+	margin-left: 14px;
+}
+
+footer {
+	border-top: 2px solid #ff6600;
+	color: #828282;
+	font-size: 13.3333px;
+	padding: 15px;
+	text-align: center;
+}
+
+footer > a {
+	display: block;
+	margin-bottom: 15px;
+}
+
+footer a {
+	color: #000;
+	text-decoration: none;
+}
+
+footer nav ul {
+	height: 14px;
+	margin-bottom: 15px;
+    overflow: hidden;
+}
+
+footer nav ul li {
+	border-right: 1px solid #828282;
+	display: inline-block;
+	margin-right: 1px;
+}
+
+footer nav ul li:last-child {
+	border: none;
+}
+
+footer nav ul li a {
+	font-size: 10.6667px;
+	margin-right: 5px;
+	vertical-align: super;
+}
+
+input {
+    padding: 2px 0;
+    width: 143px;
+}
+
+.container {
+	background: #f6f6ef;
+	margin: 0 103px;
+}
+
+#logo {
+	display: block;
+	margin-right: 4px;
+}
+
+#logo img {
+	border: 1px solid #fff;
+}
+
+#logo + h1 {
+	float: left;
+	margin-top: 2px;
+}
+
+#login {
+	display: block;
+	float: right;
+	padding-top: 2px;
+	margin-right: 4px;
+}
+
+#more-posts {
+	color: #000;
+	display: inline-block;
+	font-size: 13.3333px;
+	margin: 15px 0 0 38px;
+	text-decoration: none;
+}
